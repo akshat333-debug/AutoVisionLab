@@ -1,0 +1,10 @@
+batch_size: 32
+epochs: 20
+learning_rate: 0.0001
+
+optimizer: adam
+
+models:
+  - vgg16
+  - resnet50
+  - efficientnet
